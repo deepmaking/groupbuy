@@ -1,0 +1,130 @@
+/*整个页面*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+    font-family: monospace;
+    font-size: 15px;
+    color: #2B2D2E;
+}
+
+/*页眉*/
+
+header {
+    width: 100%;
+    padding: 10px 1%;
+    background: #FFFFFF;
+    height: 76px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+}
+
+header img, header div {
+    vertical-align: middle;
+}
+
+#header_p1{
+    font-size: 18px;
+    color: #2B2D2E;
+    text-align: left;
+}
+
+#header_p2{
+    font-size: 14px;
+    color: #434444;
+}
+
+/*产品*/
+
+.product {
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.product_img {
+	display: block;
+	margin: auto;
+    height: 200px;
+}
+
+.product_desc {
+    margin-bottom: 10px;
+}
+
+div p {
+	text-align: center;
+}
+
+.field_title {
+    color: grey;
+    font-size: 13px;
+}
+
+/*购买按钮*/
+
+.order_qty_buy_btn_wrapper {
+    text-align: center;
+}
+
+.order_qty {
+    font-size: 20px;
+}
+
+.buy_btn {
+	text-align: center;
+    width: 90px;
+    height: 36px;
+    background-color: #FFCE00;
+    border-radius: 13px;
+    border: 0;
+    font-size: 15px;
+    outline: none;
+}
+
+a {  
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*广告位*/
+
+.ad_image_wrapper {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#ad_p {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.ad_image {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*页脚*/
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.company {
+    margin-top: 20px;
+    color: grey;
+}
